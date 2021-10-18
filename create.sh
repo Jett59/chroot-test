@@ -12,3 +12,7 @@ TAR_PATH=$(realpath $1)
 echo $@ > sysroots/$2_command
 
 cd sysroots/$2 && tar -xf $TAR_PATH
+
+mkdir -p etc
+
+cat /etc/resolv.conf > ./etc/resolv.conf
