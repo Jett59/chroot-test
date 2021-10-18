@@ -1,0 +1,6 @@
+#Output directories
+sysroots/
+
+#Tar files
+*.tar
+*.tar.*
